@@ -1,0 +1,83 @@
+.fullPage {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexboxContainer {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputText {
+    padding: 0.5rem;
+    width: 500px;
+    font-size: 2rem;
+    height: 4rem;
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+    background-color: #00000029;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    height: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+a {
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 500px) {
+    .inputText {
+        width: 90%;
+    }
+}
+
+.slidecontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.slider {
+    border-radius: 20px;
+    -webkit-appearance: none;
+    width: 500px;
+    height: 2rem;
+    background: rgba(0,0,0,0.2);
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        width: 90%;
+    }
+}
+
+
+.slider::-webkit-slider-thumb {
+    border-radius: 1000px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    border-radius: 1000px;
+    width: 2rem;
+    height: 2rem;
+    background: whitesmoke;
+    cursor: pointer;
+}
